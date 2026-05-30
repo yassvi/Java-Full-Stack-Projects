@@ -1,4 +1,4 @@
-# Rachit's Portfolio 
+# Yasasvi's Portfolio 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://rachitsharma300.github.io/rachit-portfolio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rachitsharma300/rachit-portfolio/blob/main/LICENSE)
 
