@@ -1,141 +1,139 @@
-# Yasasvi's Portfolio 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://rachitsharma300.github.io/rachit-portfolio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rachitsharma300/rachit-portfolio/blob/main/LICENSE)
+
+# 🛍️ Smart Mart – E-Commerce Platform  
+### Built using **Spring Boot | Hibernate | Angular | Angular Material**
+
+![Java Badge](https://img.shields.io/badge/Backend-Java%20%2F%20SpringBoot-blue?style=for-the-badge&logo=springboot)
+![Hibernate Badge](https://img.shields.io/badge/ORM-Hibernate-yellow?style=for-the-badge&logo=hibernate)
+![Angular Badge](https://img.shields.io/badge/Frontend-Angular-red?style=for-the-badge&logo=angular)
+![Material UI](https://img.shields.io/badge/UI-Angular%20Material-orange?style=for-the-badge&logo=angular)
+[![GitHub repo size](https://img.shields.io/github/repo-size/rohith2201/SmartMart?logo=github&style=for-the-badge)](https://github.com/rohith2201/SmartMart)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/rohith2201/SmartMart?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/rohith2201/SmartMart?style=for-the-badge)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsmart--mart.vercel.app%2F&up_message=Online&down_message=Offline&style=for-the-badge&logo=googlechrome&logoColor=white)
 
 
-A modern, performant portfolio built with cutting-edge web technologies. Designed to showcase projects with smooth animations and responsive design.
+---
 
+## 📌 Overview  
+Smart Mart is a **full-stack E-Commerce platform** designed for seamless online shopping with dynamic product listings, order flow, cart-wishlist system & secure authentication.  
+Built using **Spring Boot + Hibernate (Backend)** and **Angular + Angular Material (Frontend)** with logging & analytics for tracking user behavior and platform growth.
 
-## ✨ Features
+---
 
-- **2-Theme System** (Light/Dark)
-- **Animated UI** with Framer Motion
-- **Functional Contact Form** (EmailJS)
-- **Verified Certificates** (GUVI integration)
-- **Responsive Design** (Mobile-first approach)
-- **95+ Lighthouse Score** (Optimized performance)
+## 🔥 Features  
+- 🛒 Product Catalog, Cart, Wishlist, Orders, Invoice Generation  
+- 💳 Integrated Payment Gateway  
+- 🤖 Customer Support Chatbot  
+- 📊 Google Analytics for traffic & behavior insights  
+- 📝 Log4j logging for monitoring + audit trails  
+- 🎨 Clean and responsive UI using Angular Material
 
-## 🛠 Tech Stack
+---
 
-### Core Technologies
-| Category        | Technologies                                                                 |
-|-----------------|------------------------------------------------------------------------------|
-| Frontend        | ![React](https://img.shields.io/badge/React-20232A?logo=react) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer) |
-| Deployment      | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=github) |
+## 🏗️ Tech Stack  
 
-### Key Dependencies
-```json
-"dependencies": {
-  "react": "^18.2.0",
-  "react-icons": "^4.10.1",
-  "framer-motion": "^10.16.4",
-  "emailjs-com": "^3.2.0",
-  "tailwindcss": "^3.3.0"
-}
+| Category | Technology |
+|---------|------------|
+| Frontend | Angular, Angular Material |
+| Backend | Spring Boot, Hibernate |
+| Database | MySQL / PostgreSQL |
+| Monitoring | Log4j |
+| Analytics | Google Analytics |
+| Extra | Chatbot, Payment Gateway Integration |
+
+---
+
+## 📂 Folder Structure  
 ```
-### Getting Started
-Prerequisites
+Smart-Mart/
+│── springapp/ # Spring Boot + Hibernate Services
+|    │── logs/ # Log4j output & audit logs
+│── angularapp// # Angular + Angular Material UI
+│── docs/ # Screenshots, diagrams, docs
+|    |── ui # Screenshots
+└── README.md
 ```
-Node.js ≥16.x
-npm
-Git
-```
-### Installation
-Clone the repo:
+----
+## 🛠 Tech Used
 
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Material UI](https://img.shields.io/badge/Angular%20Material-8E24AA?style=for-the-badge&logo=angular&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=yellow)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![NeonDB](https://img.shields.io/badge/NeonDB-00E599?style=for-the-badge&logo=postgresql&logoColor=black)
+
+
+
+![Google Analytics](https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![PayPal](https://img.shields.io/badge/PayPal%20Gateway-00457C?style=for-the-badge&logo=paypal&logoColor=white)
+
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 🔧 Backend – Spring Boot
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+cd springapp
+mvn clean install
+mvn spring-boot:run 
 ```
+> Runs server at `http://localhost:8080/`
 
-### Install dependencies:
+-
 
+💻 Frontend – Angular
 ```bash
+cd frontend
 npm install
+npm start
+
 ```
-### Run locally:
-```bash
-npm run dev
-```
-### Building for Production
-```bash
-npm run build
-```
-### Customization Guide
-1. Theme Colors
-Modify tailwind.config.js:
-```js
-theme: {
-  extend: {
-    colors: {
-      'dark': {
-        900: '#0f172a' // Change dark theme base color
-      },
-      'pro': {
-        accent: '#2563eb' // Professional theme accent
-      }
-    }
-  }
-}
-```
-## 2. Certificate Data
-Edit src/data/certifications.js:
-```js
-{
-  id: "GUVI-001",
-  title: "Your New Certification",
-  issuer: "Issuing Organization",
-  date: "YYYY-MM-DD",
-  link: "verification_url",
-  skills: ["Skill 1", "Skill 2"]
-}
-```
-## 3. Project Showcase
-Update src/data/projects.js with:
-```js
-{
-  title: "Project Name",
-  description: "Brief description",
-  tags: ["React", "Node.js"],
-  image: "/project-image.png",
-  github: "https://github.com/your/project",
-  live: "https://live-demo.com"
-}
-```
-### Challenging Parts
-Theme System Implementation
-Requires careful state management across components
-Solution: Used React Context + localStorage persistence
-Certificate Verification Flow
-GUVI links need proper credential IDs
-Tip: Store all certificates in a central JSON file
-Mobile Menu Animations
-Framer Motion requires precise layout measurements
+
+> Live at `http://localhost:8081/`
 
 
-### Deployment
-Install gh-pages:
-```bash
-npm install gh-pages --save-dev
-```
-### Add to package.json:
-```json
-"homepage": "https://rachitsharma300.github.io/rachit-portfolio",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-```
-### Deploy:
-```bash
-npm run deploy
-```
-### License
-MIT © Rachit Sharma
+
+## 📸 Screenshots (To Add)
+
+# 📄 Application UI Map
+
+| Page            | Path                          |
+|-----------------|-------------------------------|
+| Home UI         | `/docs/ui/home.png`             |
+| Product Listing | `/docs/ui/user/products.png`    |
+| Cart Page       | `/docs/ui/user/cart.png`        |
+| Order History   | `/docs/ui/user/Orders.png`      |
+| Submit Feedback | `/docs/ui/user/submitfeedback.png` |
+| View Feedback   | `/docs/ui/user/viewfeedback.png`   |
+| Admin Orders    | `/docs/ui/admin/orders.png`        |
+| Admin Feedback  | `/docs/ui/admin/feedback.png`      |
+| Manage Products | `/docs/ui/admin/manageProducts.png ` |
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**.
 
 
-<!--
+----
 
-## Demo
-https://github.com/user-attachments/assets/6b598e91-071c-4ba2-8559-be130678cd80
--->
+## Contributors
+<a href = "https://github.com/rohith2201/SmartMart">
+  <img src = "https://contrib.rocks/image?repo=rohith2201/SmartMart"/>
+</a>
+
+
+
